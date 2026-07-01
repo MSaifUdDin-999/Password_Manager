@@ -99,8 +99,4 @@ npm run dev
 | **POST** | `/` | Inserts a new credential document into the database. |
 | **DELETE** | `/` | Removes a credential matching the request body criteria. |
 
----
-
-```
-
 ```
