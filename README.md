@@ -1,4 +1,4 @@
-# <span style="color:#22c55e">&lt;</span>Pass<span style="color:#22c55e">OP/&gt;</span> - Your Own Password Manager
+# &ltPassOP/&gt - Your Own Password Manager
 
 PassOP is a secure, clean, and responsive web-based password manager application. Built using the modern MERN stack, it allows users to save, edit, delete, and easily copy credentials (website URLs, usernames, and passwords) while maintaining a local state-synchronized UX alongside a MongoDB backend database.
 
