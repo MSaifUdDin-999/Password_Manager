@@ -45,9 +45,9 @@ Follow these steps to set up and run the project locally.
 ### Setup Instructions
 
 1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+```bash
+git clone https://github.com/MSaifUdDin-999/Password_Manager.git
+cd Password_Manager
 
 ```
 
@@ -98,5 +98,3 @@ npm run dev
 | **GET** | `/` | Retrieves all stored credentials from the MongoDB collection. |
 | **POST** | `/` | Inserts a new credential document into the database. |
 | **DELETE** | `/` | Removes a credential matching the request body criteria. |
-
-```
