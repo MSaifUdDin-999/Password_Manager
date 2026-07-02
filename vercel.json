@@ -15,7 +15,7 @@
             "source": "/api(/.*)?",
             "destination": {
                 "type": "service",
-                "service": "backend"
+                "service": "/backend/server.js"
             }
         },
         {
