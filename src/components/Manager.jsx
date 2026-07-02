@@ -13,7 +13,7 @@ const Manager = () => {
     const [passwordArray, setPasswordArray] = useState([])
 
     const getPasswords = async () => {
-        let req = await fetch("http://localhost:3000/")
+        let req = await fetch("/api/")
         let passwords = await req.json()
         console.log(passwords)
         setPasswordArray(passwords)
@@ -47,12 +47,12 @@ const Manager = () => {
 
             // If any such ID exist in db, delete it
             if (form.id){
-                await fetch("http://localhost:3000/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: form.id }) })
+                await fetch("/api/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: form.id }) })
             }
 
             const newId = uuidv4()
             setPasswordArray([...passwordArray, { ...form, id: newId }])  // Creating new array by: -> Copying everything from the current "passwordArray", -> Adding the new "form" data to the end
-            await fetch("http://localhost:3000/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...form, id:newId }) })
+            await fetch("/api/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...form, id:newId }) })
             setform({ site: "", username: "", password: "" })
 
             toast('Password saved successfully', {
@@ -90,7 +90,7 @@ const Manager = () => {
         let c = confirm("Do you really want to delete this password")
         if (c) {
             setPasswordArray(passwordArray.filter(item => item.id !== id))  // The array element whose id don't match with given id are store in the form of array in "passwordArray". Ignore the match id "Which means delete"
-            let res = await fetch("http://localhost:3000/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id }) })
+            let res = await fetch("/api/", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id }) })
 
             toast('Password Deleted...!', {
                 position: "top-right",
