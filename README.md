@@ -1,9 +1,9 @@
-# &ltPassOP/&gt - Your Own Password Manager
+# &lt;PassOP/&gt; - Your Own Password Manager
 
 PassOP is a secure, clean, and responsive web-based password manager application. Built using the modern MERN stack, it allows users to save, edit, delete, and easily copy credentials (website URLs, usernames, and passwords) while maintaining a local state-synchronized UX alongside a MongoDB backend database.
 
 ## 🚀 Live Demo
-Check out the live deployment here: **[Live Demo Link](https://password-manager-six-ebon.vercel.app/)**
+Check out the live deployment here: **[Live Demo Link]([https://password-manager-six-ebon.vercel.app/](https://pass-op-vault.vercel.app/))**
 
 ---
 
@@ -98,3 +98,29 @@ npm run dev
 | **GET** | `/` | Retrieves all stored credentials from the MongoDB collection. |
 | **POST** | `/` | Inserts a new credential document into the database. |
 | **DELETE** | `/` | Removes a credential matching the request body criteria. |
+
+---
+
+## 🌟 Let's Connect
+
+Thanks for checking out this project!
+
+I'm **M Saif Ud Din**, a Full-stack developer passionate about building clean, responsive, and real-world web applications while continuously exploring modern technologies.
+
+Linkedin : **https://www.linkedin.com/in/muhammad-saif-ud-din-0b604840b/**
+
+GitHub : **https://github.com/MSaifUdDin-999**
+
+Email : **mrsaif1166@gmail.com**
+
+If you enjoyed this project:
+
+- ⭐ Star this repository
+- 🍴 Fork it and build something awesome
+- 💬 Share your feedback or suggestions
+
+Happy Coding! 🚀
+
+---
+
+*Developed with ❤️ by M SAIF UD DIN*
