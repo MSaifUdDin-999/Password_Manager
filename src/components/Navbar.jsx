@@ -10,10 +10,15 @@ const Navbar = () => {
                     <span className='text-green-500'>OP/&gt;</span>
                 </div>
 
-                <button className='text-white bg-green-700 my-5 rounded-full flex justify-between items-center ring-white ring-1'>
+                <a
+                    href="https://github.com/MSaifUdDin-999/Password_Manager"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className='text-white bg-green-700 my-5 rounded-full flex justify-between items-center ring-white ring-1 w-fit cursor-pointer'
+                >
                     <img className='invert w-10 p-1' src="/icons/github.svg" alt="github logo" />
                     <span className='font-bold px-2'>GitHub</span>
-                </button>
+                </a>
             </div>
         </nav>
     )
