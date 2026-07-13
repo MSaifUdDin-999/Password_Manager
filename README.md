@@ -3,7 +3,7 @@
 PassOP is a secure, clean, and responsive web-based password manager application. Built using the modern MERN stack, it allows users to save, edit, delete, and easily copy credentials (website URLs, usernames, and passwords) while maintaining a local state-synchronized UX alongside a MongoDB backend database.
 
 ## 🚀 Live Demo
-Check out the live deployment here: **[Live Demo Link](https://pass-op-vault.vercel.app/)**
+🔴 Check out the live deployment here: **[Live Demo Link](https://pass-op-vault.vercel.app/)**
 
 ---
 
